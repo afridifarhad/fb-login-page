@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+.facebook {
+    width: 800px;
+    height: 500px;
+    margin-top: 8%;
+    margin-left: 19%;
+    display: flex;
+    position: absolute;
+
+}
+
+.fb {
+
+    width: 500px;
+    height: 200px;
+    margin-top: 60px;
+
+}
+
+.facebook h2 {
+    width: 500px;
+    font-size: 8vh;
+    color: rgb(77, 77, 245);
+
+}
+
+#para {
+    font-size: 3.5vh;
+}
+
+.container {
+    margin-left: 10%;
+
+
+    border-radius: 8px;
+
+    display: flex;
+    width: 440px;
+    height: 340px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 16px 32px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+
+    background-color: #ffff;
+}
+
+.input {
+    background-color: #ffff;
+    border-radius: 9px;
+
+    width: 380px;
+
+
+}
+
+.input input {
+    width: 360px;
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 8px;
+    border: none;
+    border: 0.5px solid rgb(85, 84, 84);
+    background-color: #ffff;
+}
+
+.login {
+    width: 360px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(57, 70, 255);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login:hover {
+    background-color: rgb(77, 77, 245);
+}
+
+.input p {
+    color: blue;
+    text-align: center;
+    font-size: 15px;
+    background-color: #ffff;
+    background-color: #ffff;
+    cursor: pointer;
+}
+
+.input p:hover {
+    text-decoration: underline;
+}
+
+.new-account {
+
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(7, 197, 32);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.new-account:hover {
+    background-color: rgb(70, 180, 42);
+    
+}
+
